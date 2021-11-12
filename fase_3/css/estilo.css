@@ -1,0 +1,42 @@
+header {
+ background-color: #77E4D4;
+ text-align: center;
+}
+nav{
+    background-color: #FBF46D;
+}
+#menu{
+    text-decoration-style: double;
+}
+main{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+section{
+    background-color: #B4FE98;
+    grid-column: 1/4;
+    margin: 4px;
+}
+aside{
+    background-color: #998CEB;
+    align-content: stretch;
+    margin: 4px;
+}
+
+footer{
+    background-color: #FBF46D;
+}
+
+p{
+    text-align: justify;
+}
+#pie{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#autor{
+    text-align:center;
+}
